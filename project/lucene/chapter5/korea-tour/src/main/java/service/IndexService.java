@@ -53,7 +53,7 @@ public class IndexService {
         doc.add(new TextField("description", tourInfo.getDescription(), Field.Store.YES));
 
         // 정렬하려면 다음 값을 설정해야 한다.
-        doc.add(new SortedDocValuesField("courseName", new BytesRef(tourInfo.getDescription())));
+        doc.add(new SortedDocValuesField("courseName", new BytesRef(tourInfo.getCourseName())));
 
         try{
             writer.addDocument(doc);
