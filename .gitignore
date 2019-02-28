@@ -2,3 +2,13 @@ lucene/lucene-example/.gradle/*
 lucene/lucene-example/.idea/*
 lucene/lucene-example/out/*
 lucene/lucene-example/*.iml
+
+.idea/*.xml
+.idea/modules
+.idea/libraries
+.idea/dictionaries
+.idea/inspectionProfiles
+result
+out
+*.iml
+.gradle
